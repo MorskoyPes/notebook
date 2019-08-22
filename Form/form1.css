@@ -1,0 +1,21 @@
+p {
+	background-color: lightgreen;
+	font-size: 25px;
+	width: 20%;
+}
+.name {
+		width: 260px;
+		height: 25px;
+		border:1px solid #9E9E9E;
+		border-radius: 3px;
+    color: #000000;
+    padding: 3px;
+    margin-top: center;
+    margin-bottom: 2px;
+    font-size: 11px;
+    font-family: Verdana;
+    background: #FFF;
+}
+.comment {
+	border-radius: 3px;
+}
