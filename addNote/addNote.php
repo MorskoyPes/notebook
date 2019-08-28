@@ -19,20 +19,10 @@ $comment->date = date("l d F Y");
 $comment->time = date("h:i:s");
  R::store($comment);
 
-// READ
-$zapros = R::exec('SELECT * FROM comment');
+// Считывает сколько записей имеется в общем
+$zapros = R::exec('SELECT * FROM comment WHERE id');
 print_r($zapros);
 
-$ids = [];
-for ($i=0; $i <= $zapros; $i++) {
-	array_push($ids, $i);
-}
-print_r($ids);
-$comments = R::loadAll('comment', $ids);
-foreach ($comments as $comment){
-  echo $comment->message.' ';
-  echo $comment->time.'<br>';
-}
-$a = "5";
+$comments = R::loadAll('comment', $zapros);
 
  ?>
