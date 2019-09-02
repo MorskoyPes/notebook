@@ -1,0 +1,6 @@
+[31-Aug-2019 20:13:35 UTC] PHP Warning:  require(../rb/rb.php): failed to open stream: No such file or directory in C:\Winginx\home\notebook\public_html\addnote\deletenote.php on line 7
+[31-Aug-2019 20:13:35 UTC] PHP Fatal error:  require(): Failed opening required '../rb/rb.php' (include_path='.;C:\php\pear') in C:\Winginx\home\notebook\public_html\addnote\deletenote.php on line 7
+[31-Aug-2019 20:14:09 UTC] PHP Fatal error:  Cannot declare class RedBeanPHP\RedException, because the name is already in use in C:\Winginx\home\notebook\public_html\rb\rb.php on line 8246
+[31-Aug-2019 20:15:31 UTC] PHP Fatal error:  Cannot declare class RedBeanPHP\RedException, because the name is already in use in C:\Winginx\home\notebook\public_html\rb\rb.php on line 8246
+[31-Aug-2019 20:15:32 UTC] PHP Fatal error:  Cannot declare class RedBeanPHP\RedException, because the name is already in use in C:\Winginx\home\notebook\public_html\rb\rb.php on line 8246
+[31-Aug-2019 20:15:33 UTC] PHP Fatal error:  Cannot declare class RedBeanPHP\RedException, because the name is already in use in C:\Winginx\home\notebook\public_html\rb\rb.php on line 8246

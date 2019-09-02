@@ -16,6 +16,7 @@ $ids = R::getCol('SELECT id FROM comment');
 print_r ($ids);
 echo "<br><br>";
 
+
 $comments = R::loadAll('comment', $ids);
 foreach ($comments as $comment){
   echo "id: ".$comment->id.'; ';
