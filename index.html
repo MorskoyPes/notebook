@@ -3,13 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title> Записная книжка	</title>
+	<link rel="stylesheet" type="text/css" href="calendar/tcal.css" />
+	<script type="text/javascript" src="calendar/tcal.js"></script>
 </head>
 <body>
 
-	<a href="addnote/addnote.html">Добавить запись</a>
-	<div> <?php require 'addNote/button.php'; ?> </div>
+	<a href="addnote/addnote.html">Добавить запись</a><br>
 
+	<div> <?php
+	 require 'addnote/button.php';
+		?> </div>
 
+	<form action="#">
+		<div><input type="text" name="date" class="tcal" value="" /></div>
+	</form>
 
 </body>
 </html>
